@@ -12,67 +12,83 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="header-content">
-                <h1>Jacob T. Medeiros</h1>
-            </div>
-            <div class="profile-image">
-                <img src="profile.jpg" alt="Jake Medeiros">
-            </div>
-        </header>
-        
-        <main>
-            <section class="intro">
-                <p>Hi, my name is <strong>Jake</strong>. I'm a professional helicopter pilot, amateur musician, and avid ski mountaineer, among other things.</p>
+        <div class="main-layout">
+            <!-- Left side content -->
+            <div class="content-area">
+                <header>
+                    <h1>Jacob T. Medeiros</h1>
+                </header>
                 
-                <p>I have 5 years of experience in Python development and I'm passionate about building solutions that make a difference. I enjoy working with data, creating web applications, and exploring the intersection of technology and problem-solving.</p>
+                <main>
+                    <section class="intro">
+                        <p>Hi, my name is <strong>Jake</strong>. I'm a professional helicopter pilot, amateur musician, and avid ski mountaineer, among other things.</p>
+                        
+                        <p>I have 5 years of experience in Python development and I'm passionate about building solutions that make a difference. I enjoy working with data, creating web applications, and exploring the intersection of technology and problem-solving.</p>
+                        
+                        <p>When I'm not coding, you can find me skiing, climbing, and occasionally performing on the local music scene.</p>
+                    </section>
+                    
+                    <section class="links">
+                        <h2>Connect with me</h2>
+                        <div class="social-links">
+                            <a href="https://github.com/jakemedeiros7" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://linkedin.com/in/jakemedeiros" target="_blank" rel="noopener">LinkedIn</a>
+                            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a>
+                            <a href="mailto:jakemedeiros7@gmail.com">Email</a>
+                        </div>
+                    </section>
+                    
+                    <section class="projects">
+                        <h2>Featured Projects</h2>
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <h3>Breast Cancer Classification Analysis</h3>
+                                <p>Comparing SVM, Logistic Regression, and KNN for malignant cancer detection.</p>
+                                <a href="https://jakemedeiros7.github.io/breast-cancer-ml-analysis/index.html" target="_blank" rel="noopener">View Live Demo</a>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h3>SQL Climate Dashboard</h3>
+                                <p>Database design and querying examples demonstrating joins, stored procedures, and optimization.</p>
+                                <a href="https://jakemedeiros7.github.io/climate-data-visualization/index.html" target="_blank" rel="noopener">View Live Demo</a>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h3>Airline Performance Tool</h3>
+                                <p>A tool comparing airline and airport performance using the flights python library.</p>
+                                <a href="https://jakemedeiros7.github.io/flight-analysis-dashboard/index.html" target="_blank" rel="noopener">View Live Demo</a>
+                            </div>
+                            
+                            <div class="project-card">
+                                <h3>Scientific Computing</h3>
+                                <p>Mathematical modeling and scientific computation projects using Python and specialized libraries.</p>
+                                <a href="https://jakemedeiros7.github.io/astro-compute-lab/webapp/index.html" target="_blank" rel="noopener">View Live Demo</a>
+                            </div>
+                        </div>
+                    </section>
+                </main>
                 
-                <p>When I'm not coding, you can find me skiing, climbing, and occasionally performing on the local music scene.</p>
-            </section>
+                <footer>
+                    <p>&copy; 2025 Jake Medeiros. Built with care and curiosity.</p>
+                </footer>
+            </div>
             
-            <section class="links">
-                <h2>Connect with me</h2>
-                <div class="social-links">
-                    <a href="https://github.com/jakemedeiros7" target="_blank" rel="noopener">GitHub</a>
-                    <a href="https://linkedin.com/in/jakemedeiros" target="_blank" rel="noopener">LinkedIn</a>
-                    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a>
-                    <a href="mailto:jakemedeiros7@gmail.com">Email</a>
+            <!-- Right side image column -->
+            <div class="image-column">
+                <div class="image-container">
+                    <img src="image1.jpg" alt="Jake Medeiros - Professional photo">
                 </div>
-            </section>
-            
-            <section class="projects">
-                <h2>Featured Projects</h2>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <h3>Breast Cancer Classification Analysis</h3>
-                        <p>Comparing SVM, Logistic Regression, and KNN for malignant cancer detection.</p>
-                        <a href="https://jakemedeiros7.github.io/breast-cancer-ml-analysis/index.html" target="_blank" rel="noopener">View on GitHub</a>
-                    </div>
-                    
-                    <div class="project-card">
-                        <h3>SQL Climate Dashboard</h3>
-                        <p>Database design and querying examples demonstrating joins, stored procedures, and optimization.</p>
-                        <a href="https://jakemedeiros7.github.io/climate-data-visualization/index.html" target="_blank" rel="noopener">View on GitHub</a>
-                    </div>
-                    
-                    <div class="project-card">
-                        <h3>Airline Performance Tool</h3>
-                        <p>A tool comparing airline and airport performance using the flights python library.</p>
-                        <a href="https://jakemedeiros7.github.io/flight-analysis-dashboard/index.html" target="_blank" rel="noopener">View on GitHub</a>
-                    </div>
-                    
-                    <div class="project-card">
-                        <h3>Scientific Computing</h3>
-                        <p>Mathematical modeling and scientific computation projects using Python and specialized libraries.</p>
-                        <a href="https://jakemedeiros7.github.io/astro-compute-lab/webapp/index.html" target="_blank" rel="noopener">View on GitHub</a>
-                    </div>
+                <div class="image-container">
+                    <img src="image2.jpg" alt="Jake Medeiros - Helicopter pilot">
                 </div>
-            </section>
-        </main>
-        
-        <footer>
-            <p>&copy; 2025 Jake Medeiros. Built with care and curiosity.</p>
-        </footer>
+                <div class="image-container">
+                    <img src="image3.jpg" alt="Jake Medeiros - Ski mountaineering">
+                </div>
+                <div class="image-container">
+                    <img src="image4.jpg" alt="Jake Medeiros - Music performance">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
